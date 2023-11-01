@@ -1,0 +1,24 @@
+{
+	"name": "finapi",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon --inspect index.js"
+	},
+	"keywords": [],
+	"engines": {
+		"node": "v18.17.0"
+	},
+	"author": "joserochadev",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"uuid": "^9.0.1"
+	},
+	"devDependencies": {
+		"nodemon": "^3.0.1"
+	}
+}
